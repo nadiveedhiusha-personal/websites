@@ -26,7 +26,8 @@ body{font-family:'Plus Jakarta Sans',sans-serif;background:var(--cream);color:va
 a{text-decoration:none;color:inherit;}
 
 nav{position:sticky;top:0;z-index:100;background:rgba(250,249,247,0.93);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;padding:0 6%;height:58px;}
-.nav-logo{font-family:'Playfair Display',serif;font-size:17px;color:var(--ink);}
+.nav-logo{font-family:'Playfair Display',serif;font-size:17px;color:var(--ink);display:flex;align-items:baseline;gap:10px;}
+.nav-tagline{font-family:'Plus Jakarta Sans',sans-serif;font-size:11px;font-weight:500;color:var(--ink-soft);letter-spacing:0.5px;}
 .nav-links{display:flex;gap:26px;list-style:none;}
 .nav-links a{font-size:13px;font-weight:500;color:var(--ink-soft);letter-spacing:0.2px;transition:color 0.2s;}
 .nav-links a:hover{color:var(--rose);}
@@ -130,7 +131,7 @@ footer strong{color:var(--ink);}
 <body>
 
 <nav>
-  <div class="nav-logo">Niharika Makesh</div>
+  <div class="nav-logo">Niharika Makesh <span class="nav-tagline">Big Dreams. Bold Steps.</span></div>
   <ul class="nav-links">
     <li><a href="#achievements">Achievements</a></li>
     <li><a href="#life">Beyond Academics</a></li>
